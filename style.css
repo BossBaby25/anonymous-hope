@@ -4,23 +4,29 @@ body {
 
 .banner-text {
     top: 0;
-    bottom: 0;
     right: 0;
     left: 0;
-    position: absolute;
+    bottom: 0;
+    color: rgb(253, 252, 252);
     align-items: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    color: rgb(253, 252, 252);
     background-image: url(images/donation13.jpg);
-    font-weight: 900;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     padding-left: 350px;
     padding-right: 350px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.heading {
+    font-size: xx-large;
+    font-weight: 900;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .banner-button {
@@ -32,8 +38,38 @@ body {
 }
 
 #one {
-    width: 300px;
-    height: 100px;
-    padding: 50px;
+    width: 25px;
+    height: 25px;
+    padding: 25px;
     border: 1px solid red;
+    text-align: center;
+}
+
+.help-today {
+    text-align: center;
+    padding-top: 75px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+#help-text {
+    color: gray;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+footer h1 {
+    color: #FF5959;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+footer p {
+    color: antiquewhite;
+    font-size: smaller;
 }
